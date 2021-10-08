@@ -1,11 +1,11 @@
 export const projects = [
   {
-    title: 'MERN Memories',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-      image: '/images/1.png',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'Hospital Website',
+    description: "This project was a group collaboration with a total of five developers participating.  We used Trello to keep track of completed tasks, along with gitHub for version control considering our team was located all around the United States.  The task was random, a hospital website.  We had a two week timeline, and were able to complete on time.  I still work closely with this team as we push eachother to progress.",
+      image: '/images/castleCareResponsive.jpg',
+      tags: ['HTML', 'CSS'],
+    source: 'https://castlecare.netlify.app',
+    visit: 'https://github.com/kirito-fire-team/CastleCare',
     id: 0,
   },
   {

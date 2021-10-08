@@ -14,7 +14,7 @@ const Hero = () => (
           <SectionText>
               The purpose of coding is to help established developers take their apps to the next level.
           </SectionText>
-          <Button target="_blank" onClick = {() => window.open('https://upbeat-galileo-9a1978.netlify.app', '_blank')}>Learn More</Button>
+          <Button onClick = {() => window.open('https://upbeat-galileo-9a1978.netlify.app', '_blank')}>Learn More</Button>
       </LeftSection>
   </Section>
 );
