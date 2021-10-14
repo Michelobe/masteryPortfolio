@@ -46,7 +46,7 @@ const Timeline = () => {
     <Section id="about">
         <SectionTitle>About me</SectionTitle>
         <SectionText>
-            The purpose of JAVASCRIPT mastery blah blah blah.
+            I am a web developer out of Orange County, California.
         </SectionText>
     </Section>
   );

@@ -8,11 +8,10 @@ const Hero = () => (
   <Section row nopadding>
       <LeftSection>
           <SectionTitle main center>
-              Welcome to <br />
-              My Personal Portfolio
+              Michael De La Riva
           </SectionTitle>
           <SectionText>
-              The purpose of coding is to help established developers take their apps to the next level.
+              Web Developer
           </SectionText>
           <Button onClick = {() => window.open('https://upbeat-galileo-9a1978.netlify.app', '_blank')}>Learn More</Button>
       </LeftSection>
