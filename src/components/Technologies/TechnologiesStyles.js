@@ -113,6 +113,11 @@ export const ListItem = styled.li`
 }
 `
 
+export const listIconCont = styled.img`
+  display: flex;
+  flex-flow: row;
+`
+
 export const ListIcon = styled.img`
   display: block;
   width: 48px;

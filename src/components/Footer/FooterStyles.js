@@ -118,7 +118,7 @@ export const LinkList = styled.ul`
   display: grid;
 	grid-template-columns: repeat(3, minmax(85px, 220px));
 	gap: 40px;
-  padding: 40px 0 28px;
+    padding: 10px 0;
 
 	@media ${props => props.theme.breakpoints.lg} {
 		padding: 32px 0 16px;
@@ -147,9 +147,11 @@ export const LinkTitle = styled.h4`
 	font-weight: 600;
 	font-size: 12px;
 	line-height: 24px;
-	text-transform: uppercase;
 	color: rgba(255, 255, 255, 0.4);
 	margin-bottom: 16px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
 
 	@media ${props => props.theme.breakpoints.sm} {
 		font-size: 10px;
