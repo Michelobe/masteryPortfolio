@@ -13,7 +13,7 @@ const Technologies = () =>  (
         <br />
         <SectionTitle>Technologies</SectionTitle>
         <SectionText>
-            I've worked with a range of technologies and tools to build and deploy, effective, responsive websites using the latest designs..  
+            I've worked with a range of technologies and tools to build and deploy, effective, responsive websites using the latest designs.
         </SectionText>
         <List>
             <ListItem>
@@ -58,8 +58,8 @@ const Technologies = () =>  (
                 <ListContainer>
                     <ListTitle>Team Work</ListTitle>
                     <ListParagraph>
-                        Slack (communication) <br />
-                        Trello (tasks) <br />
+                        Slack <br />
+                        Trello <br />
                     </ListParagraph>
                 </ListContainer>
             </ListItem>

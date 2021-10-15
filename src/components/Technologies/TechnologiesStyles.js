@@ -56,7 +56,7 @@ export const ListContainer = styled.div`
 
   @media ${props => props.theme.breakpoints.sm}{
     display: flex;
-    margin-left: 18px;
+    margin-left: 0;
   }
 `
 
@@ -101,15 +101,15 @@ export const ListItem = styled.li`
   max-width: 320px;
   display: flex;
   flex-direction: column;
-
 @media ${props => props.theme.breakpoints.md}{
   max-width: 203px;
 }
 
 @media ${props => props.theme.breakpoints.sm}{
   margin-bottom: 14px;
-  max-width: 320px;
-  flex-direction: row;
+  max-width: 100%;
+  flex-direction: column;
+  align-items: center;
 }
 `
 
