@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
+import { Section, SectionText, SectionTitle, SectionSubText } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
@@ -11,8 +11,11 @@ const Hero = () => (
               Michael De La Riva
           </SectionTitle>
           <SectionText>
-              Web Developer
+              Developer
           </SectionText>
+          <SectionSubText>
+              Hi, I'm Michael -- a front-end developer who enjoys taking a concept design and building it into a fully functional website.
+          </SectionSubText>
           <Button onClick = {() => window.open('https://upbeat-galileo-9a1978.netlify.app', '_blank')}>Learn More</Button>
       </LeftSection>
   </Section>
