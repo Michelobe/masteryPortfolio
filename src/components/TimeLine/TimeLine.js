@@ -46,7 +46,7 @@ const Timeline = () => {
     <Section id="about">
         <SectionTitle>About me</SectionTitle>
         <SectionText>
-            I am a web developer out of Orange County, California.
+            I am a developer from beautiful Orange County, California.  I am excited to be back from Oregon, and I look forward to new opportunities.
         </SectionText>
     </Section>
   );

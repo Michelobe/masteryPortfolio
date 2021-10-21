@@ -10,7 +10,7 @@ const Footer = () => {
             <LinkList />
             <SocialIconsContainer>
                 <CompanyContainer>
-                    <Slogan>Innovating one project at a time</Slogan>
+                    <Slogan>Do, or do not. There is no try.</Slogan>
                 </CompanyContainer>
                 <SocialContainer>
                     <SocialIcons href="https://github.com/michelobe" target="_blank">
