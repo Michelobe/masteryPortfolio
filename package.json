@@ -1,5 +1,6 @@
 {
   "name": "portfolio_nextjs",
+  "homepage": "https://michaeldelariva.com",
   "version": "0.1.0",
   "private": true,
   "scripts": {

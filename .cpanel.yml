@@ -16,8 +16,8 @@ deployment:
     - export DEPLOYPATH=/home/michael3/public_html
     - /bin/cp out/vercel.svg $DEPLOYPATH
 
-    # to put next file in public_html/next
-    - export CSSPATH=/home/michael3/public_html/next
+    # to put next file in public_html/_next
+    - export CSSPATH=/home/michael3/public_html/_next
     - /bin/cp out/_next/* $NEXTPATH
     
     # to put images file in public_html/images
