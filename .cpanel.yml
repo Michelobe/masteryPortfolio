@@ -2,24 +2,8 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/michael3/public_html
-    - /bin/cp out/index.html $DEPLOYPATH
+    - /bin/cp public/* $DEPLOYPATH
 
     # to put ERROR file in public_html
     - export DEPLOYPATH=/home/michael3/public_html
-    - /bin/cp out/404.html $DEPLOYPATH
-    
-    # to put favicon file in public_html
-    - export DEPLOYPATH=/home/michael3/public_html
-    - /bin/cp out/favicon.ico $DEPLOYPATH
-    
-    # to put SVG file in public_html
-    - export DEPLOYPATH=/home/michael3/public_html
-    - /bin/cp out/vercel.svg $DEPLOYPATH
-
-    # to put next file in public_html/_next
-    - export CSSPATH=/home/michael3/public_html/_next
-    - /bin/cp out/_next/* $NEXTPATH
-    
-    # to put images file in public_html/images
-    - export JSPATH=/home/michael3/public_html/images
-    - /bin/cp out/images/* $IMAGESPATH
+    - /bin/cp src/* $DEPLOYPATH
