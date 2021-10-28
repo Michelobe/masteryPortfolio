@@ -1,9 +1,0 @@
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/michael3/public_html
-    - /bin/cp public/* $DEPLOYPATH
-
-    # to put ERROR file in public_html
-    - export DEPLOYPATH=/home/michael3/public_html
-    - /bin/cp src/* $DEPLOYPATH
