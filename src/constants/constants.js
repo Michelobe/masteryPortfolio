@@ -13,7 +13,7 @@ export const projects = [
     description:"I designed this website as a mobile-first website, leaving it very clean and straight to the point.  The object was to convey contact info rapidly upon loading the site.  It was projected that out in the field, users would most likely only have their phones/tablets on them, so mobile-first was the way to go.",
     image: '/images/handymanResponsive.jpg',
     tags: ['HTML', 'CSS'],
-    source: 'https://ienumber1handyman.michaeldelariva.com/',
+    source: 'https://ienumber1handyman.com/',
     visit: 'https://github.com/Michelobe/numberOneHandyman',
     id: 1,
   },
